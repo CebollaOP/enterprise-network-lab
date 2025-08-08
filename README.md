@@ -4,6 +4,16 @@
 
 This project simulates a full-stack enterprise network inside a virtual lab environment. It includes a pfSense firewall, a Windows Server 2022 domain controller with DHCP, DNS, and Active Directory services, a Windows 10 domain-joined client, and a Kali Linux attacker machine. The goal is to showcase core IT and cybersecurity concepts such as domain authentication, internal network segmentation, and penetration testing in a safe and controlled setup.
 
+### Lab Goals
+
+- Build and configure a full-stack virtual enterprise network
+- Apply core networking concepts (VLANs, DHCP, DNS, routing, subnetting)
+- Set up Active Directory and Group Policy in a Windows Server domain
+- Configure pfSense as a firewall and VPN gateway
+- Practice security hardening and monitoring using Kali Linux
+- Perform basic domain enumeration and pentesting simulations
+- Document configurations and troubleshoot network issues
+
 ## Network Diagram
 
 The following diagram represents the logical layout of the network used in this lab.
