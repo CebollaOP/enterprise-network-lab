@@ -104,3 +104,13 @@ This lab was built and tested using the following hardware:
 - All screenshots and configurations are based on a real, working home lab running on a Ryzen 5 desktop with VirtualBox.
 - This lab was built to support job applications in IT support, networking, and cybersecurity roles.
 - Project is actively being expanded with more advanced features like IDS/IPS and vulnerability scanning.
+
+## Learning Outcomes
+
+- Strengthened practical understanding of networking fundamentals, including DNS, DHCP, and Active Directory
+- Gained experience configuring firewall rules, NAT, and gateway settings with pfSense
+- Applied real-world Group Policy configurations to manage and secure client machines
+- Practiced system hardening and network enumeration using Kali Linux tools
+- Developed troubleshooting skills by resolving IP conflicts, DNS resolution issues, and GPO errors
+- Built confidence deploying and maintaining a segmented enterprise-style network environment
+- Documented technical work in a clear and organized way to showcase to recruiters
