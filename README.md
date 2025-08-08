@@ -8,7 +8,7 @@ This project simulates a full-stack enterprise network inside a virtual lab envi
 
 The following diagram represents the logical layout of the network used in this lab.
 
-![Network Diagram](screenshots/network_diagram.png)
+![Network Diagram](screenshots/Network_Diagram.png)
 
 ## Lab Components
 
