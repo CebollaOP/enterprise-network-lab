@@ -74,12 +74,17 @@ Kali Linux
 
 ## Folder Structure
 ```
-/ (root)
-│
+/
 ├── README.md
 ├── /screenshots
-│   ├── network_diagram.png
-│   └── other_screenshots_here.png
+│   ├── /gpo
+│   │   ├── gpo_linked_policies.png
+│   │   ├── gpo_labclients_settings.png
+│   │   └── gpo_labclients_enforced.png
+│   ├── /pfsense
+│   ├── /windows_server
+│   ├── /kali
+│   └── network_diagram.png
 ├── /configs
 │   ├── pfsense_rules.txt
 │   ├── dns_scope.txt
@@ -114,3 +119,18 @@ This lab was built and tested using the following hardware:
 - Developed troubleshooting skills by resolving IP conflicts, DNS resolution issues, and GPO errors
 - Built confidence deploying and maintaining a segmented enterprise-style network environment
 - Documented technical work in a clear and organized way to showcase to recruiters
+## Screenshots
+
+### Group Policy Objects (GPO)
+
+- **GPO Linked Policies:**  
+  ![GPO Linked Policies](screenshots/gpo/gpo_linked_policies.png)  
+  Shows the GPOs linked to the domain and their status.
+
+- **LabClients Default Policy Settings:**  
+  ![LabClients GPO Settings](screenshots/gpo/gpo_labclients_settings.png)  
+  Displays the key policy restricting access to Control Panel and PC settings.
+
+- **Policy Enforcement on Windows 10 Client:**  
+  ![GPO Enforcement on Client](screenshots/gpo/gpo_labclients_enforced.png)  
+  Proof that the policy is active by showing Control Panel is blocked on the client machine.
