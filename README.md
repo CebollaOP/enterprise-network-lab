@@ -63,7 +63,7 @@ Kali Linux
 - Traffic analysis using Wireshark
 
 ## Folder Structure
-
+```
 / (root)
 │
 ├── README.md
@@ -77,7 +77,7 @@ Kali Linux
 ├── /docs
 │   ├── setup_notes.md
 │   └── troubleshooting_log.md
-
+```
 ## Lab Host Machine Specifications
 
 This lab was built and tested using the following hardware:
