@@ -129,128 +129,128 @@ Demonstrates successful ping from the Windows 10 client to the domain controller
 
 ### Domain Verification via Command Prompt
 Verifies the domain membership of the Windows 10 client using `whoami` and `echo %USERDOMAIN%`.
-![Domain Verification CMD](../screenshots/Client/domain_verification_cmd.png)
+![Domain Verification CMD](screenshots/Client/domain_verification_cmd.png)
 
 ### Group Policy Result (gpresult)
 Shows applied GPOs on the client machine.
-![gpresult Client](../screenshots/Client/gpresult_client.png)
+![gpresult Client](screenshots/Client/gpresult_client.png)
 
 ### Client IP Configuration (DHCP)
 Displays IP configuration showing DHCP-assigned IP from Windows Server.
-![IPConfig DHCP](../screenshots/Client/ipconfig_dhcp.png)
+![IPConfig DHCP](screenshots/Client/ipconfig_dhcp.png)
 
 ### Mapped Network Client
 Shows mapped network drives from the domain.
-![Mapped Network Client](../screenshots/Client/mappednetwork_client.png)
+![Mapped Network Client](screenshots/Client/mappednetwork_client.png)
 
 ### Shared Docs from Client
 Demonstrates access to shared folders from the Windows Server.
-![Shared Docs Client](../screenshots/Client/sharedocs_client.png)
+![Shared Docs Client](screenshots/Client/sharedocs_client.png)
 
 ### Whoami on Client
 Confirms logged-in domain account on the client.
-![Whoami Client](../screenshots/Client/whoami_client.png)
+![Whoami Client](screenshots/Client/whoami_client.png)
 
 
 ## Kali
 
 ### CrackMapExec SMB Scan
 Performs SMB scan against the domain network.
-![CME SMB Scan](../screenshots/Kali/cme_smb_scan.png)
+![CME SMB Scan](screenshots/Kali/cme_smb_scan.png)
 
 ### CrackMapExec SMB Shares
 Lists SMB shares discovered on the target.
-![CME SMB Shares](../screenshots/Kali/cme_smb_shares.PNG)
+![CME SMB Shares](screenshots/Kali/cme_smb_shares.PNG)
 
 ### Nmap Scan from Kali
 Performs Nmap scan of the target host.
-![Nmap Kali](../screenshots/Kali/nmap_kali.png)
+![Nmap Kali](screenshots/Kali/nmap_kali.png)
 
 ### RPCClient Enumeration
 Enumerates domain info using rpcclient.
-![RPCClient Kali](../screenshots/Kali/rpcclient_kali.png)
+![RPCClient Kali](screenshots/Kali/rcpclient_kali.png)
 
 ### SMB Enumeration
 Enumerates SMB services and shares.
-![SMB Enumeration Kali](../screenshots/Kali/smb_enumeration_kali.png)
+![SMB Enumeration Kali](screenshots/Kali/smb_enumeration_kali.png)
 
 
 ## GPO
 
 ### GPO Lab Clients Enforced
 Shows enforced GPOs for lab clients.
-![GPO Lab Clients Enforced](../screenshots/gpo/gpo_labclients_enforced.png)
+![GPO Lab Clients Enforced](screenshots/gpo/gpo_labclients_enforced.png)
 
 ### GPO Lab Clients Settings
 Displays settings configured in the lab clients GPO.
-![GPO Lab Clients Settings](../screenshots/gpo/gpo_labclients_settings.png)
+![GPO Lab Clients Settings](screenshots/gpo/gpo_labclients_settings.png)
 
 ### GPO Linked Policies
 Shows GPOs linked to the domain.
-![GPO Linked Policies](../screenshots/gpo/gpo_linked_policies.png)
+![GPO Linked Policies](screenshots/gpo/gpo_linked_policies.png)
 
 
 ## pfSense
 
 ### pfSense Dashboard
 Main dashboard view of pfSense firewall.
-![pfSense Dashboard](../screenshots/gpo/pfsense/pfsense_Dashboard.PNG)
+![pfSense Dashboard](screenshots/gpo/pfsense/pfsense_Dashboard.PNG)
 
 ### pfSense DHCP Settings
 Configured DHCP server settings.
-![pfSense DHCP Settings](../screenshots/gpo/pfsense/pfsense_dhcp_settings.png)
+![pfSense DHCP Settings](screenshots/gpo/pfsense/pfsense_dhcp_settings.png)
 
 ### pfSense Firewall LAN Rules
 LAN interface firewall rules configuration.
-![pfSense Firewall LAN Rules](../screenshots/gpo/pfsense/pfsense_firewall_lan_rules.png)
+![pfSense Firewall LAN Rules](screenshots/gpo/pfsense/pfsense_firewall_lan_rules.png)
 
 ### pfSense Firewall WAN Rules
 WAN interface firewall rules configuration.
-![pfSense Firewall WAN Rules](../screenshots/gpo/pfsense/pfsense_firewall_wan_rules.png)
+![pfSense Firewall WAN Rules](screenshots/gpo/pfsense/pfsense_firewall_wan_rules.png)
 
 ### pfSense Gateways
 Gateway configuration in pfSense.
-![pfSense Gateways](../screenshots/gpo/pfsense/pfsense_gateways.png)
+![pfSense Gateways](screenshots/gpo/pfsense/pfsense_gateways.png)
 
 ### pfSense LAN Settings
 LAN interface network settings.
-![pfSense LAN Settings](../screenshots/gpo/pfsense/pfsense_lan_settings.png)
+![pfSense LAN Settings](screenshots/gpo/pfsense/pfsense_lan_settings.png)
 
 ### pfSense NAT Outbound
 NAT outbound mapping configuration.
-![pfSense NAT Outbound](../screenshots/gpo/pfsense/pfsense_nat_outbound.png)
+![pfSense NAT Outbound](screenshots/gpo/pfsense/pfsense_nat_outbound.png)
 
 ### pfSense NAT Port Forwarding
 Port forwarding rules configuration.
-![pfSense NAT Port Forwarding](../screenshots/gpo/pfsense/pfsense_nat_portforward.png)
+![pfSense NAT Port Forwarding](screenshots/gpo/pfsense/pfsense_nat_portforward.png)
 
 ### pfSense WAN Settings
 WAN interface settings configuration.
-![pfSense WAN Settings](../screenshots/gpo/pfsense/pfsense_wan_settings.png)
+![pfSense WAN Settings](screenshots/gpo/pfsense/pfsense_wan_settings.png)
 
 
 ## Windows Server
 
 ### Active Directory Users and Computers
 Shows created users and groups in AD.
-![AD Users and Computers](../screenshots/gpo/windows_server/ad_users_and_computers.png)
+![AD Users and Computers](screenshots/gpo/windows_server/ad_users_and_computers.png)
 
 ### DHCP Scope
 DHCP scope configuration.
-![DHCP Scope](../screenshots/gpo/windows_server/dhcp_scope.png)
+![DHCP Scope](screenshots/gpo/windows_server/dhcp_scope.png)
 
 ### DHCP Scope Options
 Additional DHCP options set.
-![DHCP Scope Options](../screenshots/gpo/windows_server/dhcp_scope_options.png)
+![DHCP Scope Options](screenshots/gpo/windows_server/dhcp_scope_options.png)
 
 ### DNS Forward Lookup
 Forward lookup zone in DNS Manager.
-![DNS Forward Lookup](../screenshots/gpo/windows_server/dns_forward_lookup.png)
+![DNS Forward Lookup](screenshots/gpo/windows_server/dns_forward_lookup.png)
 
 ### Server Manager Dashboard
 Overview of roles and services installed.
-![Server Manager Dashboard](../screenshots/gpo/windows_server/server_manager_dashboard.png)
+![Server Manager Dashboard](screenshots/gpo/windows_server/server_manager_dashboard.png)
 
 ### Shared Folders
 Shared folders configuration in Windows Server.
-![Shared Folders](../screenshots/gpo/windows_server/shared_folders.png)
+![Shared Folders](screenshots/gpo/windows_server/shared_folders.png)
