@@ -125,7 +125,7 @@ This lab was built and tested using the following hardware:
 
 ### Client Ping Domain Controller
 Demonstrates successful ping from the Windows 10 client to the domain controller.
-![Client Ping Domain Controller](../screenshots/Client/client_ping_domain_controller.png)
+![Client Ping Domain Controller](screenshots/Client/client_ping_domain_controller.png)
 
 ### Domain Verification via Command Prompt
 Verifies the domain membership of the Windows 10 client using `whoami` and `echo %USERDOMAIN%`.
