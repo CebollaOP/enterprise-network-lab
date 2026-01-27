@@ -1,4 +1,4 @@
-# Virtual Enterprise Network Lab (Cybersecurity-Focused)
+# Virtual Enterprise Network Lab
 
 ## Project Overview
 
